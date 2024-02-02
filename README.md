@@ -1,9 +1,9 @@
 # Simulations
 ## Monte Carlo Integration
-Monte Carlo Integration is one of methods used to find the definite integrals numerically. In the\n
+Monte Carlo Integration is one of methods used to find the definite integrals numerically. In the
 this program we calculate the area of a sample function using this method.
-The sample function is x sin(1/x) whose integral was to be calculated from -1 to 1.\n
-Following were the key steps involved in the calculation:\n
+The sample function is x sin(1/x) whose integral is calculated from -1 to 1.
+Following were the key steps involved in the calculation:
 1. Sampled the n number of points from a uniform random distribution.
 2. Imagined a square of area 4 units starting from (-1,-1) to (1,1) so that it inscribies the
 required portion of the graph.
